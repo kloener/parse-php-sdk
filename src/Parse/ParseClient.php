@@ -456,7 +456,7 @@ final class ParseClient
         if ($useMasterKey) {
             $headers[] = 'X-Parse-Master-Key: '.self::$masterKey;
         } else {
-            $headers[] = 'X-Parse-REST-API-Key: '.self::$restKey;
+            $headers[] = 'X-Parse-Client-Key: '.self::$restKey;
         }
         if (self::$forceRevocableSession) {
             $headers[] = 'X-Parse-Revocable-Session: 1';
