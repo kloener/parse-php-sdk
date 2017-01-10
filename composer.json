@@ -1,6 +1,6 @@
 {
-    "name": "parse/php-sdk",
-    "description": "Parse PHP SDK",
+    "name": "kloener/php-sdk",
+    "description": "Parse PHP SDK Forked",
     "keywords": ["parse", "sdk"],
     "type": "library",
     "homepage": "https://github.com/parseplatform/parse-php-sdk",
@@ -9,6 +9,9 @@
         {
             "name": "Parse",
             "homepage": "https://github.com/parseplatform/parse-php-sdk/contributors"
+        }, {
+            "name": "Christian Illies",
+            "homepage": "https://github.com/kloener"
         }
     ],
     "require": {
