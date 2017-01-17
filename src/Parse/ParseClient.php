@@ -330,7 +330,7 @@ final class ParseClient
 
         $url = self::$serverURL.'/'.self::$mountPath.ltrim($relativeUrl, '/');
         if ($method === 'GET' && !empty($data)) {
-            $url .= '?'.http_build_query($data);
+            $url .= '?'.http_build_query($data, '', '&');
         }
         $rest = curl_init();
         curl_setopt($rest, CURLOPT_URL, $url);
